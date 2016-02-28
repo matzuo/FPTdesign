@@ -249,11 +249,23 @@ ul.alert-dropdown {
 
     background-color: #26A69A;
     color:#FFFFFF;
+
+
 }
 
 .fptimg{
 
-    width: 10%;
+    width: 6%;
     margin-top: -2%;
 
+}
+
+.myHover {
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+
+.myHover:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
 }

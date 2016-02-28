@@ -1,51 +1,82 @@
 <!DOCTYPE html>
-<html>
-	<link rel="stylesheet" type="text/css" href="materialize/css/materialize.css">
-	<link rel="stylesheet" type="text/css" href="materialize/css/materialize.min.css">
-	<script src="jquery/jquery-2.1.4.js"></script>
-	<script type="text/javascript" src= "materialize/js/materialize.js"></script>
-	<script type="text/javascript" src= "materialize/js/materialize.min.js"></script>
+<html lang="en">
 
 <head>
-	<title>I-Trace Registration</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin - Bootstrap Admin Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="css/plugins/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-	<nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="img/FPT.png" height="65" width="65"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.html">Login </a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav" style="left: -250px;">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <div id="wrapper">
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top itrace" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="login.html"><img src="img/itrace.png" class="fptimg"></a>
+            </div>
+
+        </nav>
     </div>
-  </nav>
 
-    <div class="container" align="center">
-  		<div class="mylogin" >
-  			<div class="container mypadt">
-  				 <div class="row">
-					<div class="input-field col s12">
-					  <ul id="dropdown2" class="dropdown-content">
-					    <li><a href="#!">Candidate</a></li>
-					    <li><a href="#!">Watcher</a></li>
-					    <li><a href="#!">Supervisor</a></li>
-					  </ul>
-					  <a class="btn dropdown-button" href="#!" data-activates="dropdown2">User Type<i class="mdi-navigation-arrow-drop-down right"></i></a>
-				  </div>
-				<div class="input-field col s12">
-				<button class="btn waves-effect waves-light" type="submit" name="action">Begin
-				<i class="material-icons right"></i>
-				</button>
-				</div>
-				</div>	 
-  			</div>
-  		</div>	
-   </div>
+      <div class="container" style="background-color: 000000;">
+            <div class=" container mylogin">
+                    <div class="col-sm-5" align="center">
+                            <a href="watcherRegistration.html" class="myHover"><img src="img/watcher.png" style="width:80%"></a>
+                    </div>
+                    <div class="col-sm-5 pull-right center-block" align="center">
+                            <a href="candidateRegistration.html" class="myHover"><img src="img/candidate.png" style="width:80%"></a>                       
+                    </div>
+                
+            </div>
+        </div>
 
-                <script type="text/javascript" src="main/main.js"></script>
+      </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="js/plugins/morris/raphael.min.js"></script>
+    <script src="js/plugins/morris/morris.min.js"></script>
+    <script src="js/plugins/morris/morris-data.js"></script>
 
 </body>
+
 </html>
